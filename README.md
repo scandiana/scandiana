@@ -21,6 +21,5 @@ dicionário = {
     "work": "trabalho"
 }
 
-# Printando todas as palavras e suas traduções em ordem
 for palavra in sorted(dicionario.keys()):
     print(f"{palavra}: {dicionario[palavra]}")
