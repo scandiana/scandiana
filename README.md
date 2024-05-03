@@ -1,25 +1,27 @@
-dicionário = {
-    "hello": "olá",
-    "goodbye": "adeus",
-    "cat": "gato",
-    "dog": "cachorro",
-    "house": "casa",
-    "tree": "árvore",
-    "book": "livro",
-    "computer": "computador",
-    "friend": "amigo",
-    "family": "família",
-    "car": "carro",
-    "bike": "bicicleta",
-    "sun": "sol",
-    "moon": "lua",
-    "water": "água",
-    "food": "comida",
-    "love": "amor",
-    "happiness": "felicidade",
-    "sadness": "tristeza",
-    "work": "trabalho"
+# Dicionário de palavras e significados de inglês para português
+dicionario = {
+    "Time": "Tempo",
+    "Goodbye": "Adeus",
+    "People": "Pessoas",
+    "Book": "Livro",
+    "Words": "Palavras",
+    "Years": "Anos",
+    "Place": "Lugar",
+    "Tree": "Árvore",
+    "Numbers": "Números",
+    "Chair": "Cadeira",
+    "Name": "Nome",
+    "Computer": "Computador",
+    "Line": "Linha",
+    "Water": "Água",
+    "Food": "Comida",
+    "Moon": "Lua",
+    "Eyes": "Olhos",
+    "Sky": "Céu",
+    "Side": "Lado",
+    "Love": "Amor"
 }
 
-for palavra in sorted(dicionario.keys()):
-    print(f"{palavra}: {dicionario[palavra]}")
+# Imprimindo as palavras e suas traduções em ordem
+for palavra, significado in sorted(dicionario.items()):
+    print(f"{palavra} - {significado}")
